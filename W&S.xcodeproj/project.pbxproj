@@ -9,12 +9,32 @@
 /* Begin PBXBuildFile section */
 		E9A70E7026B002F200A2F015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70E6F26B002F200A2F015 /* AppDelegate.swift */; };
 		E9A70E7226B002F200A2F015 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70E7126B002F200A2F015 /* SceneDelegate.swift */; };
-		E9A70E7426B002F200A2F015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70E7326B002F200A2F015 /* ViewController.swift */; };
+		E9A70E7426B002F200A2F015 /* WordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70E7326B002F200A2F015 /* WordsViewController.swift */; };
 		E9A70E7726B002F200A2F015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A70E7526B002F200A2F015 /* Main.storyboard */; };
 		E9A70E7926B002F400A2F015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A70E7826B002F400A2F015 /* Assets.xcassets */; };
 		E9A70E7C26B002F400A2F015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A70E7A26B002F400A2F015 /* LaunchScreen.storyboard */; };
 		E9A70E8726B002F500A2F015 /* W_STests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70E8626B002F500A2F015 /* W_STests.swift */; };
 		E9A70E9226B002F500A2F015 /* W_SUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70E9126B002F500A2F015 /* W_SUITests.swift */; };
+		E9A70EAA26B1A40400A2F015 /* UITableViewGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70EA926B1A40400A2F015 /* UITableViewGenerics.swift */; };
+		E9A70EAD26B1A42E00A2F015 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70EAC26B1A42E00A2F015 /* UIViewExt.swift */; };
+		E9A70EAF26B1A45E00A2F015 /* UIStoryboardExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70EAE26B1A45E00A2F015 /* UIStoryboardExt.swift */; };
+		E9A70EB626B29B6000A2F015 /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70EB426B29B6000A2F015 /* WordCell.swift */; };
+		E9A70EB726B29B6000A2F015 /* WordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A70EB526B29B6000A2F015 /* WordCell.xib */; };
+		E9A70EB926B29BCD00A2F015 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70EB826B29BCD00A2F015 /* UIColorExt.swift */; };
+		E9A70EBB26B29C2200A2F015 /* WordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70EBA26B29C2200A2F015 /* WordsViewModel.swift */; };
+		E9A70EBE26B2A16800A2F015 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70EBD26B2A16800A2F015 /* Word.swift */; };
+		E9A70EC226B2A5BC00A2F015 /* AddWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70EC126B2A5BC00A2F015 /* AddWordViewController.swift */; };
+		E9A70EC426B2A5CC00A2F015 /* AddWord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A70EC326B2A5CC00A2F015 /* AddWord.storyboard */; };
+		E9A70EC626B2A89D00A2F015 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70EC526B2A89D00A2F015 /* UIViewControllerExt.swift */; };
+		E9A70EC826B2C0FE00A2F015 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70EC726B2C0FE00A2F015 /* StringExt.swift */; };
+		E9A70ED026B2CC9200A2F015 /* SynonymCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70ECE26B2CC9200A2F015 /* SynonymCell.swift */; };
+		E9A70ED126B2CC9200A2F015 /* SynonymCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A70ECF26B2CC9200A2F015 /* SynonymCell.xib */; };
+		E9A70ED426B2D51000A2F015 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70ED326B2D51000A2F015 /* Enums.swift */; };
+		E9A70ED626B40DE300A2F015 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70ED526B40DE300A2F015 /* UILabel.swift */; };
+		E9A70ED826B7E7E800A2F015 /* ArrayExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70ED726B7E7E700A2F015 /* ArrayExt.swift */; };
+		E9A70EDB26B8284300A2F015 /* AddWordProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70EDA26B8284300A2F015 /* AddWordProtocol.swift */; };
+		E9A70EDD26B93C6100A2F015 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9A70EDC26B93C6100A2F015 /* Localizable.strings */; };
+		E9A70EDF26B93D2000A2F015 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A70EDE26B93D2000A2F015 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +58,7 @@
 		E9A70E6C26B002F200A2F015 /* W&S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W&S.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A70E6F26B002F200A2F015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9A70E7126B002F200A2F015 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9A70E7326B002F200A2F015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9A70E7326B002F200A2F015 /* WordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; };
 		E9A70E7626B002F200A2F015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9A70E7826B002F400A2F015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9A70E7B26B002F400A2F015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +69,26 @@
 		E9A70E8D26B002F500A2F015 /* W&SUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "W&SUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A70E9126B002F500A2F015 /* W_SUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W_SUITests.swift; sourceTree = "<group>"; };
 		E9A70E9326B002F500A2F015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A70EA926B1A40400A2F015 /* UITableViewGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewGenerics.swift; sourceTree = "<group>"; };
+		E9A70EAC26B1A42E00A2F015 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		E9A70EAE26B1A45E00A2F015 /* UIStoryboardExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardExt.swift; sourceTree = "<group>"; };
+		E9A70EB426B29B6000A2F015 /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+		E9A70EB526B29B6000A2F015 /* WordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WordCell.xib; sourceTree = "<group>"; };
+		E9A70EB826B29BCD00A2F015 /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		E9A70EBA26B29C2200A2F015 /* WordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewModel.swift; sourceTree = "<group>"; };
+		E9A70EBD26B2A16800A2F015 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		E9A70EC126B2A5BC00A2F015 /* AddWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordViewController.swift; sourceTree = "<group>"; };
+		E9A70EC326B2A5CC00A2F015 /* AddWord.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddWord.storyboard; sourceTree = "<group>"; };
+		E9A70EC526B2A89D00A2F015 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		E9A70EC726B2C0FE00A2F015 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		E9A70ECE26B2CC9200A2F015 /* SynonymCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynonymCell.swift; sourceTree = "<group>"; };
+		E9A70ECF26B2CC9200A2F015 /* SynonymCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SynonymCell.xib; sourceTree = "<group>"; };
+		E9A70ED326B2D51000A2F015 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		E9A70ED526B40DE300A2F015 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		E9A70ED726B7E7E700A2F015 /* ArrayExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExt.swift; sourceTree = "<group>"; };
+		E9A70EDA26B8284300A2F015 /* AddWordProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordProtocol.swift; sourceTree = "<group>"; };
+		E9A70EDC26B93C6100A2F015 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E9A70EDE26B93D2000A2F015 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +139,14 @@
 		E9A70E6E26B002F200A2F015 /* W&S */ = {
 			isa = PBXGroup;
 			children = (
-				E9A70E6F26B002F200A2F015 /* AppDelegate.swift */,
-				E9A70E7126B002F200A2F015 /* SceneDelegate.swift */,
-				E9A70E7326B002F200A2F015 /* ViewController.swift */,
-				E9A70E7526B002F200A2F015 /* Main.storyboard */,
-				E9A70E7826B002F400A2F015 /* Assets.xcassets */,
-				E9A70E7A26B002F400A2F015 /* LaunchScreen.storyboard */,
+				E9A70EA726B1A38600A2F015 /* Components */,
+				E9A70ED226B2D4FF00A2F015 /* Enums */,
+				E9A70EAB26B1A42000A2F015 /* Extension */,
+				E9A70EA826B1A3D800A2F015 /* Generics */,
+				E9A70EA626B1A37D00A2F015 /* Helpers */,
+				E9A70EA526B1A36C00A2F015 /* Constants */,
+				E9A70EA426B1A36700A2F015 /* Utils */,
+				E9A70EA326B1A35E00A2F015 /* SupportFiles */,
 				E9A70E7D26B002F400A2F015 /* Info.plist */,
 			);
 			path = "W&S";
@@ -126,6 +168,160 @@
 				E9A70E9326B002F500A2F015 /* Info.plist */,
 			);
 			path = "W&SUITests";
+			sourceTree = "<group>";
+		};
+		E9A70EA326B1A35E00A2F015 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70E6F26B002F200A2F015 /* AppDelegate.swift */,
+				E9A70E7126B002F200A2F015 /* SceneDelegate.swift */,
+				E9A70E7826B002F400A2F015 /* Assets.xcassets */,
+				E9A70E7A26B002F400A2F015 /* LaunchScreen.storyboard */,
+				E9A70EDC26B93C6100A2F015 /* Localizable.strings */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		E9A70EA426B1A36700A2F015 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E9A70EA526B1A36C00A2F015 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70EDE26B93D2000A2F015 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E9A70EA626B1A37D00A2F015 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70ED526B40DE300A2F015 /* UILabel.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E9A70EA726B1A38600A2F015 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70EBF26B2A59100A2F015 /* AddWord */,
+				E9A70EB026B299E200A2F015 /* Words */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E9A70EA826B1A3D800A2F015 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70EA926B1A40400A2F015 /* UITableViewGenerics.swift */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		E9A70EAB26B1A42000A2F015 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70EAC26B1A42E00A2F015 /* UIViewExt.swift */,
+				E9A70EAE26B1A45E00A2F015 /* UIStoryboardExt.swift */,
+				E9A70EB826B29BCD00A2F015 /* UIColorExt.swift */,
+				E9A70EC526B2A89D00A2F015 /* UIViewControllerExt.swift */,
+				E9A70EC726B2C0FE00A2F015 /* StringExt.swift */,
+				E9A70ED726B7E7E700A2F015 /* ArrayExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E9A70EB026B299E200A2F015 /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70E7526B002F200A2F015 /* Main.storyboard */,
+				E9A70EBC26B2A15B00A2F015 /* Models */,
+				E9A70EB326B29B4900A2F015 /* Cells */,
+				E9A70EB226B299F300A2F015 /* ViewModel */,
+				E9A70EB126B299EC00A2F015 /* Views */,
+			);
+			path = Words;
+			sourceTree = "<group>";
+		};
+		E9A70EB126B299EC00A2F015 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70E7326B002F200A2F015 /* WordsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9A70EB226B299F300A2F015 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70EBA26B29C2200A2F015 /* WordsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E9A70EB326B29B4900A2F015 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70EB426B29B6000A2F015 /* WordCell.swift */,
+				E9A70EB526B29B6000A2F015 /* WordCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E9A70EBC26B2A15B00A2F015 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70EBD26B2A16800A2F015 /* Word.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9A70EBF26B2A59100A2F015 /* AddWord */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70ED926B8283400A2F015 /* Protocols */,
+				E9A70EC926B2C88A00A2F015 /* Cells */,
+				E9A70EC026B2A59E00A2F015 /* Views */,
+				E9A70EC326B2A5CC00A2F015 /* AddWord.storyboard */,
+			);
+			path = AddWord;
+			sourceTree = "<group>";
+		};
+		E9A70EC026B2A59E00A2F015 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70EC126B2A5BC00A2F015 /* AddWordViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9A70EC926B2C88A00A2F015 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70ECE26B2CC9200A2F015 /* SynonymCell.swift */,
+				E9A70ECF26B2CC9200A2F015 /* SynonymCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E9A70ED226B2D4FF00A2F015 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70ED326B2D51000A2F015 /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		E9A70ED926B8283400A2F015 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E9A70EDA26B8284300A2F015 /* AddWordProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +428,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9A70E7C26B002F400A2F015 /* LaunchScreen.storyboard in Resources */,
+				E9A70EB726B29B6000A2F015 /* WordCell.xib in Resources */,
+				E9A70EC426B2A5CC00A2F015 /* AddWord.storyboard in Resources */,
+				E9A70EDD26B93C6100A2F015 /* Localizable.strings in Resources */,
 				E9A70E7926B002F400A2F015 /* Assets.xcassets in Resources */,
 				E9A70E7726B002F200A2F015 /* Main.storyboard in Resources */,
+				E9A70ED126B2CC9200A2F015 /* SynonymCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +458,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9A70E7426B002F200A2F015 /* ViewController.swift in Sources */,
+				E9A70EBB26B29C2200A2F015 /* WordsViewModel.swift in Sources */,
+				E9A70EDF26B93D2000A2F015 /* Constants.swift in Sources */,
+				E9A70EC826B2C0FE00A2F015 /* StringExt.swift in Sources */,
+				E9A70E7426B002F200A2F015 /* WordsViewController.swift in Sources */,
+				E9A70EC626B2A89D00A2F015 /* UIViewControllerExt.swift in Sources */,
+				E9A70EB926B29BCD00A2F015 /* UIColorExt.swift in Sources */,
+				E9A70EAA26B1A40400A2F015 /* UITableViewGenerics.swift in Sources */,
+				E9A70ED626B40DE300A2F015 /* UILabel.swift in Sources */,
+				E9A70EC226B2A5BC00A2F015 /* AddWordViewController.swift in Sources */,
+				E9A70ED426B2D51000A2F015 /* Enums.swift in Sources */,
+				E9A70EDB26B8284300A2F015 /* AddWordProtocol.swift in Sources */,
+				E9A70EB626B29B6000A2F015 /* WordCell.swift in Sources */,
+				E9A70EAD26B1A42E00A2F015 /* UIViewExt.swift in Sources */,
 				E9A70E7026B002F200A2F015 /* AppDelegate.swift in Sources */,
+				E9A70EBE26B2A16800A2F015 /* Word.swift in Sources */,
+				E9A70ED826B7E7E800A2F015 /* ArrayExt.swift in Sources */,
+				E9A70EAF26B1A45E00A2F015 /* UIStoryboardExt.swift in Sources */,
 				E9A70E7226B002F200A2F015 /* SceneDelegate.swift in Sources */,
+				E9A70ED026B2CC9200A2F015 /* SynonymCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

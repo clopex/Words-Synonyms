@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  W&S
+
+  Created by Adis Mulabdic on 03.08.2021..
+  
+*/
+
+"Synonym" = "Synonym";
+"Error" = "Error";
+"Add Word First!" = "Add Word First!";
+"Edit" = "Edit";
+"Delete" = "Delete";
+"Dismiss" = "Dismiss";
+"Warning" = "Warning";
+"This synonym is linked to more words, do you want to delete this synonym from all words?" = "This synonym is linked to more words, do you want to delete this synonym from all words?";
+"Yes" = "Yes";
+"No" = "No";
+"Edit Synonym" = "Edit Synonym";
+"Add a Synonym" = "Add a Synonym";
+"Add" = "Add";
+"Search a Word" = "Search a Word";
